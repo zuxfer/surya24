@@ -1,0 +1,16 @@
+ [
+{
+	"tweetcolor"	:"darkGrayColor",
+	"tweetfont"		:"Helvetica",
+	"tweetsize"		:"11",
+  
+  
+	"usernamefont"	:"Helveletica",
+	"usernamecolor"	:"blackColor",
+	"usernamesize"	:"15",
+  
+    "hashtagcolor"	:"blueColor",
+    "urlcolor"      :"redColor",
+    "mentioncolor"	:"brownColor"
+}
+]

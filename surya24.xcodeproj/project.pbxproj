@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D84E3690192A05470022710C /* friendslist.json in Resources */ = {isa = PBXBuildFile; fileRef = D84E368F192A05470022710C /* friendslist.json */; };
+		D857D8211920D6CB0063FAC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8201920D6CB0063FAC1 /* Foundation.framework */; };
+		D857D8231920D6CB0063FAC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8221920D6CB0063FAC1 /* CoreGraphics.framework */; };
+		D857D8251920D6CB0063FAC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8241920D6CB0063FAC1 /* UIKit.framework */; };
+		D857D82B1920D6CB0063FAC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D857D8291920D6CB0063FAC1 /* InfoPlist.strings */; };
+		D857D82D1920D6CB0063FAC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D857D82C1920D6CB0063FAC1 /* main.m */; };
+		D857D8311920D6CB0063FAC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D857D8301920D6CB0063FAC1 /* AppDelegate.m */; };
+		D857D8341920D6CB0063FAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D857D8321920D6CB0063FAC1 /* Main.storyboard */; };
+		D857D8371920D6CB0063FAC1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D857D8361920D6CB0063FAC1 /* MasterViewController.m */; };
+		D857D83A1920D6CB0063FAC1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D857D8391920D6CB0063FAC1 /* DetailViewController.m */; };
+		D857D83C1920D6CB0063FAC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D857D83B1920D6CB0063FAC1 /* Images.xcassets */; };
+		D857D8431920D6CB0063FAC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8421920D6CB0063FAC1 /* XCTest.framework */; };
+		D857D8441920D6CB0063FAC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8201920D6CB0063FAC1 /* Foundation.framework */; };
+		D857D8451920D6CB0063FAC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857D8241920D6CB0063FAC1 /* UIKit.framework */; };
+		D857D84D1920D6CB0063FAC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D857D84B1920D6CB0063FAC1 /* InfoPlist.strings */; };
+		D857D84F1920D6CB0063FAC1 /* surya24Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D857D84E1920D6CB0063FAC1 /* surya24Tests.m */; };
+		D857D8591920EF450063FAC1 /* a.json in Resources */ = {isa = PBXBuildFile; fileRef = D857D8581920EF450063FAC1 /* a.json */; };
+		D87074861921F3350086BC96 /* b.json in Resources */ = {isa = PBXBuildFile; fileRef = D87074851921F3350086BC96 /* b.json */; };
+		D87074911921FC750086BC96 /* FollowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87074901921FC750086BC96 /* FollowerViewController.m */; };
+		D87A600D1924AFEB00E2976E /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = D87A600C1924AFEB00E2976E /* style.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D857D8461920D6CB0063FAC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D857D8151920D6CB0063FAC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D857D81C1920D6CB0063FAC1;
+			remoteInfo = surya24;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D84E368F192A05470022710C /* friendslist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friendslist.json; sourceTree = "<group>"; };
+		D857D81D1920D6CB0063FAC1 /* surya24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = surya24.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857D8201920D6CB0063FAC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D857D8221920D6CB0063FAC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D857D8241920D6CB0063FAC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D857D8281920D6CB0063FAC1 /* surya24-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "surya24-Info.plist"; sourceTree = "<group>"; };
+		D857D82A1920D6CB0063FAC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D857D82C1920D6CB0063FAC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D857D82E1920D6CB0063FAC1 /* surya24-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "surya24-Prefix.pch"; sourceTree = "<group>"; };
+		D857D82F1920D6CB0063FAC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D857D8301920D6CB0063FAC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D857D8331920D6CB0063FAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D857D8351920D6CB0063FAC1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D857D8361920D6CB0063FAC1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D857D8381920D6CB0063FAC1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D857D8391920D6CB0063FAC1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D857D83B1920D6CB0063FAC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D857D8411920D6CB0063FAC1 /* surya24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = surya24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857D8421920D6CB0063FAC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D857D84A1920D6CB0063FAC1 /* surya24Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "surya24Tests-Info.plist"; sourceTree = "<group>"; };
+		D857D84C1920D6CB0063FAC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D857D84E1920D6CB0063FAC1 /* surya24Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = surya24Tests.m; sourceTree = "<group>"; };
+		D857D8581920EF450063FAC1 /* a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = a.json; sourceTree = "<group>"; };
+		D87074851921F3350086BC96 /* b.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = b.json; sourceTree = "<group>"; };
+		D870748F1921FC750086BC96 /* FollowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerViewController.h; sourceTree = "<group>"; };
+		D87074901921FC750086BC96 /* FollowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerViewController.m; sourceTree = "<group>"; };
+		D87A600C1924AFEB00E2976E /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D857D81A1920D6CB0063FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D8231920D6CB0063FAC1 /* CoreGraphics.framework in Frameworks */,
+				D857D8251920D6CB0063FAC1 /* UIKit.framework in Frameworks */,
+				D857D8211920D6CB0063FAC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857D83E1920D6CB0063FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D8431920D6CB0063FAC1 /* XCTest.framework in Frameworks */,
+				D857D8451920D6CB0063FAC1 /* UIKit.framework in Frameworks */,
+				D857D8441920D6CB0063FAC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D857D8141920D6CB0063FAC1 = {
+			isa = PBXGroup;
+			children = (
+				D857D8261920D6CB0063FAC1 /* surya24 */,
+				D857D8481920D6CB0063FAC1 /* surya24Tests */,
+				D857D81F1920D6CB0063FAC1 /* Frameworks */,
+				D857D81E1920D6CB0063FAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D857D81E1920D6CB0063FAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D857D81D1920D6CB0063FAC1 /* surya24.app */,
+				D857D8411920D6CB0063FAC1 /* surya24Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D857D81F1920D6CB0063FAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D857D8201920D6CB0063FAC1 /* Foundation.framework */,
+				D857D8221920D6CB0063FAC1 /* CoreGraphics.framework */,
+				D857D8241920D6CB0063FAC1 /* UIKit.framework */,
+				D857D8421920D6CB0063FAC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D857D8261920D6CB0063FAC1 /* surya24 */ = {
+			isa = PBXGroup;
+			children = (
+				D84E368F192A05470022710C /* friendslist.json */,
+				D87A600C1924AFEB00E2976E /* style.json */,
+				D87074851921F3350086BC96 /* b.json */,
+				D857D8581920EF450063FAC1 /* a.json */,
+				D857D82F1920D6CB0063FAC1 /* AppDelegate.h */,
+				D857D8301920D6CB0063FAC1 /* AppDelegate.m */,
+				D857D8321920D6CB0063FAC1 /* Main.storyboard */,
+				D857D8351920D6CB0063FAC1 /* MasterViewController.h */,
+				D857D8361920D6CB0063FAC1 /* MasterViewController.m */,
+				D857D8381920D6CB0063FAC1 /* DetailViewController.h */,
+				D857D8391920D6CB0063FAC1 /* DetailViewController.m */,
+				D857D83B1920D6CB0063FAC1 /* Images.xcassets */,
+				D857D8271920D6CB0063FAC1 /* Supporting Files */,
+				D870748F1921FC750086BC96 /* FollowerViewController.h */,
+				D87074901921FC750086BC96 /* FollowerViewController.m */,
+			);
+			path = surya24;
+			sourceTree = "<group>";
+		};
+		D857D8271920D6CB0063FAC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D857D8281920D6CB0063FAC1 /* surya24-Info.plist */,
+				D857D8291920D6CB0063FAC1 /* InfoPlist.strings */,
+				D857D82C1920D6CB0063FAC1 /* main.m */,
+				D857D82E1920D6CB0063FAC1 /* surya24-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D857D8481920D6CB0063FAC1 /* surya24Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D857D84E1920D6CB0063FAC1 /* surya24Tests.m */,
+				D857D8491920D6CB0063FAC1 /* Supporting Files */,
+			);
+			path = surya24Tests;
+			sourceTree = "<group>";
+		};
+		D857D8491920D6CB0063FAC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D857D84A1920D6CB0063FAC1 /* surya24Tests-Info.plist */,
+				D857D84B1920D6CB0063FAC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D857D81C1920D6CB0063FAC1 /* surya24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857D8521920D6CB0063FAC1 /* Build configuration list for PBXNativeTarget "surya24" */;
+			buildPhases = (
+				D857D8191920D6CB0063FAC1 /* Sources */,
+				D857D81A1920D6CB0063FAC1 /* Frameworks */,
+				D857D81B1920D6CB0063FAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = surya24;
+			productName = surya24;
+			productReference = D857D81D1920D6CB0063FAC1 /* surya24.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D857D8401920D6CB0063FAC1 /* surya24Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857D8551920D6CB0063FAC1 /* Build configuration list for PBXNativeTarget "surya24Tests" */;
+			buildPhases = (
+				D857D83D1920D6CB0063FAC1 /* Sources */,
+				D857D83E1920D6CB0063FAC1 /* Frameworks */,
+				D857D83F1920D6CB0063FAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D857D8471920D6CB0063FAC1 /* PBXTargetDependency */,
+			);
+			name = surya24Tests;
+			productName = surya24Tests;
+			productReference = D857D8411920D6CB0063FAC1 /* surya24Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D857D8151920D6CB0063FAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zemoso;
+				TargetAttributes = {
+					D857D8401920D6CB0063FAC1 = {
+						TestTargetID = D857D81C1920D6CB0063FAC1;
+					};
+				};
+			};
+			buildConfigurationList = D857D8181920D6CB0063FAC1 /* Build configuration list for PBXProject "surya24" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D857D8141920D6CB0063FAC1;
+			productRefGroup = D857D81E1920D6CB0063FAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D857D81C1920D6CB0063FAC1 /* surya24 */,
+				D857D8401920D6CB0063FAC1 /* surya24Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D857D81B1920D6CB0063FAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87074861921F3350086BC96 /* b.json in Resources */,
+				D857D83C1920D6CB0063FAC1 /* Images.xcassets in Resources */,
+				D857D82B1920D6CB0063FAC1 /* InfoPlist.strings in Resources */,
+				D87A600D1924AFEB00E2976E /* style.json in Resources */,
+				D84E3690192A05470022710C /* friendslist.json in Resources */,
+				D857D8341920D6CB0063FAC1 /* Main.storyboard in Resources */,
+				D857D8591920EF450063FAC1 /* a.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857D83F1920D6CB0063FAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D84D1920D6CB0063FAC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D857D8191920D6CB0063FAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D8311920D6CB0063FAC1 /* AppDelegate.m in Sources */,
+				D857D8371920D6CB0063FAC1 /* MasterViewController.m in Sources */,
+				D857D82D1920D6CB0063FAC1 /* main.m in Sources */,
+				D857D83A1920D6CB0063FAC1 /* DetailViewController.m in Sources */,
+				D87074911921FC750086BC96 /* FollowerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D857D83D1920D6CB0063FAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857D84F1920D6CB0063FAC1 /* surya24Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D857D8471920D6CB0063FAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D857D81C1920D6CB0063FAC1 /* surya24 */;
+			targetProxy = D857D8461920D6CB0063FAC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D857D8291920D6CB0063FAC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D857D82A1920D6CB0063FAC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D857D8321920D6CB0063FAC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D857D8331920D6CB0063FAC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D857D84B1920D6CB0063FAC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D857D84C1920D6CB0063FAC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D857D8501920D6CB0063FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D857D8511920D6CB0063FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D857D8531920D6CB0063FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "surya24/surya24-Prefix.pch";
+				INFOPLIST_FILE = "surya24/surya24-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D857D8541920D6CB0063FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "surya24/surya24-Prefix.pch";
+				INFOPLIST_FILE = "surya24/surya24-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D857D8561920D6CB0063FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/surya24.app/surya24";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "surya24/surya24-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "surya24Tests/surya24Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D857D8571920D6CB0063FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/surya24.app/surya24";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "surya24/surya24-Prefix.pch";
+				INFOPLIST_FILE = "surya24Tests/surya24Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D857D8181920D6CB0063FAC1 /* Build configuration list for PBXProject "surya24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857D8501920D6CB0063FAC1 /* Debug */,
+				D857D8511920D6CB0063FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857D8521920D6CB0063FAC1 /* Build configuration list for PBXNativeTarget "surya24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857D8531920D6CB0063FAC1 /* Debug */,
+				D857D8541920D6CB0063FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D857D8551920D6CB0063FAC1 /* Build configuration list for PBXNativeTarget "surya24Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857D8561920D6CB0063FAC1 /* Debug */,
+				D857D8571920D6CB0063FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D857D8151920D6CB0063FAC1 /* Project object */;
+}
